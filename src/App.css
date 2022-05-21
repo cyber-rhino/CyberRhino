@@ -13,3 +13,8 @@ html a, a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+}
