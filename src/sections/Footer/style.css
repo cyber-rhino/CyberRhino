@@ -1,0 +1,19 @@
+footer{
+    background: var(--gradient-color);
+    margin-top: 2rem;
+    padding-block: 2rem;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+    color: #fff;
+  }
+  
+  footer svg {
+    width: 218px;
+    height: auto;
+  }
+
+  .footer-container {
+      margin-left: 1rem;
+  }

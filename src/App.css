@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  --primary-color: hsl(212, 91%, 40%);
+  --gradient-color: linear-gradient(277.84deg, #15BFE3 31.1%, #1523EC 129.48%);
+  margin: 0;
+}
+
+/*-----------Nav------------*/
+
+html a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
