@@ -1,0 +1,31 @@
+.services-page {
+    margin-top: 5rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #F8FAFB;
+    border: 0.963495px solid #C4C4C4;
+    width: 330px;
+    gap: 1rem;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.title {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 1rem;
+}
+
+.card p{
+    width: 250px;
+}
+
+.card img{
+    width: 300px;
+    height: auto;
+}

@@ -4,15 +4,19 @@ import "bootstrap/js/src/collapse.js";
 import Navbar from "./components/Navbar";
 import Home from "./sections/Home";
 import Footer from "./sections/Footer";
+import Services from "./sections/Services";
 
 function App() {
   return (
     <>
-    <div className="wrapper">
+    <section>
     <Navbar />
     <Home />
-    </div>
+    <Services />
+    </section>
+    <footer>
     <Footer />
+    </footer>
     </>
   );
 }
