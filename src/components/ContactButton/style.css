@@ -1,0 +1,18 @@
+.button a {
+    margin-top: 2.5rem;
+    color: #fff;
+    font-size: 18px;
+    background: hsl(212, 91%, 40%);
+    padding: 1rem 2.5rem;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    transition: background 200ms;
+}
+
+.button a:hover {
+    font-weight: 500;
+    background: hsl(212, 91%, 20%);
+}

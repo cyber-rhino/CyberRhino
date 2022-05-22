@@ -1,0 +1,23 @@
+#qmsomos-page{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block: 2rem;
+    height: auto;
+    background: linear-gradient(180deg, rgba(21, 191, 227, 0.1) 0%, rgba(21, 191, 227, 0.1) 15.33%, rgba(21, 35, 236, 0.1) 163.53%);
+}
+
+#qmsomos-page p {
+    margin-inline: 1rem;
+}
+
+#qmsomos-page img {
+    margin-inline: auto;
+    margin-block: -2rem;
+    width: 13rem;
+    object-position: 0.5rem -3rem;
+    height: auto;
+}

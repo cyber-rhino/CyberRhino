@@ -6,8 +6,8 @@ import {ReactComponent as Confere} from "../../assets/img/confere.svg"
 
 function Services() {
   return (
-    <section className="services-page">
-      <h4>Services</h4>
+    <section id="services-page">
+      <h4>Serviços</h4>
       <h2>O que podemos oferecer?</h2>
       
       <div className="card">

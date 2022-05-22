@@ -3,7 +3,7 @@ import {ReactComponent as HomeImg} from "../../assets/img/desenho.svg"
 
 function Home() {
     return(
-        <section className="home-page">
+        <section id="home-page">
         <div className="home-container">
           <div>
             <h1>Bem vindo(a) a família Cyber Rhino!</h1>

@@ -12,9 +12,10 @@ html a, a:hover {
   color: unset;
 }
 
-.wrapper {
-  width: min(50rem, 100%);
-  margin-inline: auto;
+#sections {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 section h1, section h2 , section h3 , section h4, section h5 , section h6{
@@ -24,6 +25,7 @@ section h1, section h2 , section h3 , section h4, section h5 , section h6{
 
 section p {
   font-weight: 500;
+  margin-bottom: 0;
 }
 
 section h2 {
