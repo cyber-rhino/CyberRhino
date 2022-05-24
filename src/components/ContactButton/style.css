@@ -13,6 +13,6 @@
 }
 
 .button a:hover {
-    font-weight: 500;
+    font-weight: unset;
     background: hsl(212, 91%, 20%);
 }

@@ -5,6 +5,17 @@
   --primary-color: hsl(212, 91%, 40%);
   --gradient-color: linear-gradient(277.84deg, #15BFE3 31.1%, #1523EC 129.48%);
   margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
 }
 
 html a, a:hover {
@@ -15,7 +26,7 @@ html a, a:hover {
 #sections {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 section h1, section h2 , section h3 , section h4, section h5 , section h6{

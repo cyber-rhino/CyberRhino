@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div id="sections">
+      <body id="sections">
         <section id="home-page">
           <Home />
         </section>
@@ -28,7 +28,7 @@ function App() {
         <section id="contact-page">
           <Contact />
         </section>
-      </div>
+      </body>
       
       <footer>
         <Footer />

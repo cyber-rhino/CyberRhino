@@ -5,19 +5,13 @@ function Home() {
     return(
         <section id="home-page">
         <div className="home-container">
-          <div>
             <h1>Bem vindo(a) a família Cyber Rhino!</h1>
             <p>
               Aqui procuramos reservar e entregar o melhor serviço para você.
             </p>
-          </div>
 
-          <div className="contact-button">
             <a className="home-button" href=".">Quem somos?</a>
-          </div>
-
-            <div className="contact-button">
-              <a className="home-button" href=".">
+            <a className="home-button" href=".">
                 Contate-nos
                 <svg
                   width="17"
@@ -34,7 +28,6 @@ function Home() {
                   />
                 </svg>
               </a>
-          </div>
           
           <div className="home-img">
           <HomeImg />
