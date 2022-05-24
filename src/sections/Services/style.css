@@ -12,7 +12,7 @@
     text-align: center;
     background: #F8FAFB;
     border: 0.963495px solid #C4C4C4;
-    width: 330px;
+    width: 300px;
     gap: 1rem;
     margin-inline: auto;
     margin-block: 1.5rem;
@@ -34,3 +34,4 @@
     width: 300px;
     height: auto;
 }
+

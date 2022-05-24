@@ -3,7 +3,7 @@
 * {
   font-family: 'Montserrat', sans-serif;
   --primary-color: hsl(212, 91%, 40%);
-  --gradient-color: linear-gradient(277.84deg, #15BFE3 31.1%, #1523EC 129.48%);
+  --gradient-color: linear-gradient(266.4deg, #15BFE3 0%, #1523EC 100%);
   margin: 0;
   padding: 0;
 }
@@ -45,7 +45,7 @@ section h2 {
 }
 
 section h4 {
-  font-size: 16px;
+  font-size: 13px;
   color: var(--primary-color);
   text-align: center;
 }
