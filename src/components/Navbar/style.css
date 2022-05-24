@@ -3,7 +3,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-block: 1.5rem;
+  padding-block: 1.4rem;
 }
 
 .open-menu, .close-menu {
@@ -33,12 +33,17 @@ body.menu-expanded .close-menu{
   z-index: 100;
 }
 
+body .logo svg {
+  width: 11rem;
+  height: auto;
+}
+
 body.menu-expanded .logo path[fill*='white']{
   fill: #0960C1;
 }
 
-body.menu-expanded .logo path[fill*='#0960C1']{
-  fill: #fff;
+body.menu-expanded .logo svg defs linearGradient stop{
+  stop-color: #fff;
 }
 
 body.menu-expanded {
