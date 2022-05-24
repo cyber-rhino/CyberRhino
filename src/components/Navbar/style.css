@@ -18,6 +18,8 @@ a:hover{
   width: 35rem;
 }
 
+
+
 .main-menu a {
   color: var(--primary-color);
 }
@@ -32,4 +34,8 @@ ul .button:hover {
   color: #fff;
   border: none;
   background: var(--gradient-color);
+}
+
+#logo{
+  width: 95%;
 }
