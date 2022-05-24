@@ -45,6 +45,11 @@ body.menu-expanded {
   overflow: hidden;
 }
 
+body.menu-expanded ul li a:hover{
+  color: rgb(218, 218, 218);
+}
+
+
 .nav-button svg path{
   fill: #0960C1;
 }

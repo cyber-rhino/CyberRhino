@@ -1,7 +1,7 @@
 footer{
     background: var(--gradient-color);
     margin-top: 1rem;
-    padding-block: 0.02px 0.7rem;
+    padding-block: 1rem;
   }
   
   footer p {
