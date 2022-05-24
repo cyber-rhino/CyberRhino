@@ -2,8 +2,8 @@
     margin-inline: auto;
     margin-top: 1rem;
     padding: 2rem;
-    border-radius: 20px 20px 150px 20px;
-    width: 80%;
+    border-radius: 20px 20px 115px 20px;
+    width: 88%;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -12,15 +12,16 @@
     text-align: center;
     color: #fff;
     background: var(--gradient-color);
-    box-shadow: 0px 3.61424px 42.4674px rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 3.61424px 22.4674px rgba(0, 0, 0, 0.40);
   }
   
   #home-page p {
-    font-size: 20px;
+    font-size: 1rem;
+    margin-top: 5px;
   }
 
   #home-page h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .home-img img{
