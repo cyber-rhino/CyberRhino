@@ -13,21 +13,12 @@ function App() {
     <>
       <Navbar />
       <body id="sections">
-        <section id="home-page">
+          
           <Home />
-        </section>
-
-        <section id="services-page">
           <Services />
-        </section>
-
-        <section id="qmsomos-page">
           <QmSomos />
-        </section>
-
-        <section id="contact-page">
           <Contact />
-        </section>
+
       </body>
       
       <footer>

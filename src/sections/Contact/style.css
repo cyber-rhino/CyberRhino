@@ -1,5 +1,6 @@
 #contact-page{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
@@ -9,6 +10,19 @@
 #contact-page img {
     width: 18rem;
     height: auto;
+}
+
+#contact-page .col-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contact-page .col-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dados {
@@ -24,4 +38,39 @@
     align-items: center;
     text-align: start;
     gap: 1rem;
+}
+
+#contact-page .expanded-button {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    #contact-page .small-button{
+        display: none;
+    }
+
+    #contact-page .expanded-button {
+        display: flex;
+    }
+
+    #contact-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'A B' 'A B';
+        padding-inline: 7rem;
+        padding-block: 4rem;
+    }
+
+    #contact-page .col-a {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #contact-page .col-b img{
+        width: 80%;
+        height: auto;
+    }
+    
 }

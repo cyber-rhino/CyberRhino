@@ -11,7 +11,7 @@ nav {
   background: none;
 }
 
-body.menu-expanded > ::not(nav){
+body.menu-expanded > :not(nav){
   visibility: hidden;
 }
 
@@ -22,7 +22,9 @@ body.menu-expanded .open-menu {
 }
 
 body.menu-expanded .menu,
-body.menu-expanded .close-menu{
+body.menu-expanded .close-menu,
+body.menu-expanded .logo
+{
   opacity: 1;
   visibility: visible;
 }
@@ -30,7 +32,7 @@ body.menu-expanded .close-menu{
 body.menu-expanded .logo,
 body.menu-expanded .close-menu{
   position: relative;
-  z-index: 100;
+  z-index: 1000;
 }
 
 body .logo svg {
@@ -50,10 +52,9 @@ body.menu-expanded {
   overflow: hidden;
 }
 
-body.menu-expanded ul li a:hover{
+body.menu-expanded .item a:hover{
   color: rgb(218, 218, 218);
 }
-
 
 .nav-button svg path{
   fill: #0960C1;
@@ -64,15 +65,17 @@ body.menu-expanded ul li a:hover{
 }
 
 .nav-button a {
+  height: 4rem;
+  width: 13rem;
   margin-top: 2.5rem;
   color: #0960C1;
   font-size: 18px;
   background: #fff;
-  padding: 1rem 2.5rem;
   border-radius: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   transition: background 200ms;
 }
@@ -85,12 +88,14 @@ body.menu-expanded ul li a:hover{
 
 body.menu-expanded ul {
   display: flex;
+  height: 100vh;
+  width: 100vw;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: 6rem;
   justify-content: center;
   text-align: center;
+  margin-top: 2rem;
   padding: 3rem;
   font-size: 23px;
   font-weight: 800;
@@ -111,7 +116,7 @@ body.menu-expanded .menu{
 
 body.menu-expanded nav{
   position: relative;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem;
 }
 
 nav .menu,
@@ -121,4 +126,29 @@ nav .close-menu{
 
 .menu{
   transform: translateY(100%);
+}
+
+@media (min-width: 768px) {
+  body.menu-expanded ul{
+    font-size: 36px;
+    gap: 4rem;
+  }
+
+  body.menu-expanded .nav-button a {
+    width: 25rem;
+    height: 6rem;
+    gap: 2rem;
+    font-size: 36px;
+  }
+
+  body.menu-expanded .nav-button svg {
+    width: 3rem;
+    height: auto;
+  }
+  
+  body.menu-expanded .social-links-nav svg{
+    width: 3rem;
+    height: auto;
+  }
+  
 }

@@ -1,0 +1,30 @@
+.buy-button button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--gradient-color);
+}
+
+.buy-button svg {
+    width: 2.5rem;
+    height: auto;
+}
+
+.buy-button button:hover {
+    color: var(--primary-color);
+    background: #fff;
+    outline: 1px solid var(--primary-color);
+}
+
+.buy-button button:hover svg path[fill=white]{
+    fill: var(--primary-color);
+}
+
+.buy-button button:hover svg path[stroke=white]{
+    stroke: var(--primary-color);
+}

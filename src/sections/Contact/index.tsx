@@ -5,8 +5,9 @@ import ContactButton from "../../components/ContactButton";
 function Contact() {
   return (
     <section id="contact-page">
-      <h4>Contate-nos</h4>
-      <h2>Entre em contato</h2>
+      <div className="col-a">
+        <h4>Contate-nos</h4>
+        <h2>Entre em contato</h2>
 
         <div className="dados">
           <div className="dado">
@@ -73,10 +74,17 @@ function Contact() {
             <p>cyberrhino@gmail.com</p>
           </div>
         </div>
+        <div className="expanded-button">
+          <ContactButton />
+        </div>
+      </div>
 
-      <img src={Notebook} alt="" />
-
-      <ContactButton />
+      <div className="col-b">
+        <img src={Notebook} alt="" />
+        <div className="small-button">
+          <a target="_blank" href="https://wa.me/558883476398" rel="noreferrer"><ContactButton /></a>
+        </div>
+      </div>
     </section>
   );
 }

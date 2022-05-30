@@ -15,13 +15,13 @@ function Navbar() {
       </div>
       <div className="menu">
       <ul>
-        <li>
+        <li className="item">
           <a onClick={removeMenu} href="#home-page">Início</a>
         </li>
-        <li>
+        <li className="item">
           <a onClick={removeMenu} href="#services-page">Serviços</a>
         </li>
-        <li>
+        <li className="item">
           <a onClick={removeMenu} href="#qmsomos-page">Quem somos?</a>
         </li>
         <li>
@@ -34,7 +34,7 @@ function Navbar() {
             </a>
         </div>
         </li>
-        <li>
+        <li className="social-links-nav">
           <SocialLinks />
         </li>
       </ul>

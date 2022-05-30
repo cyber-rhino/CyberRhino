@@ -2,7 +2,7 @@
     margin-top: 2.5rem;
     color: #fff;
     font-size: 18px;
-    background: hsl(212, 91%, 48%);
+    background: var(--primary-color);
     padding: 1rem 2.5rem;
     border-radius: 200px;
     display: flex;
