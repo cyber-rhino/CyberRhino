@@ -62,3 +62,17 @@ section h4 {
 .col-b{
   grid-area: B;
 }
+
+@media (min-width: 1024px){
+  section h4 {
+    font-size:18px;
+  }
+
+  section h2 {
+    font-size: 36px;
+  }
+
+  section p{
+    font-size: 20px;
+  }
+}

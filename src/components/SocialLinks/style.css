@@ -1,5 +1,5 @@
 .social-links {
-    margin-top: 2rem;
+    margin-top: unset;
     display: flex;
     gap: 2rem;
 }

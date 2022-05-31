@@ -34,7 +34,7 @@ function Navbar() {
             </a>
         </div>
         </li>
-        <li className="social-links-nav">
+        <li className="social-links">
           <SocialLinks />
         </li>
       </ul>

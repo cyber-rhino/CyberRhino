@@ -57,7 +57,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'A B' 'A B';
-        padding-inline: 7rem;
+        padding-inline: 8rem;
         padding-block: 4rem;
     }
 

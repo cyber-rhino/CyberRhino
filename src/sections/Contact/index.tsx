@@ -71,7 +71,7 @@ function Contact() {
                 stroke-linejoin="round"
               />
             </svg>
-            <p>cyberrhino@gmail.com</p>
+            <p>cyberrhino14@gmail.com</p>
           </div>
         </div>
         <div className="expanded-button">

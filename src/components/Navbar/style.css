@@ -11,6 +11,11 @@ nav {
   background: none;
 }
 
+body.menu-expanded .social-links{
+  margin-top: 2rem;
+}
+
+
 body.menu-expanded > :not(nav){
   visibility: hidden;
 }
@@ -149,6 +154,7 @@ nav .close-menu{
   body.menu-expanded .social-links-nav svg{
     width: 3rem;
     height: auto;
+    margin-top: 3rem;
   }
   
 }

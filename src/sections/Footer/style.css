@@ -1,7 +1,7 @@
 footer{
     background: var(--gradient-color);
     margin-top: 4rem;
-    padding-block: 1rem;
+    padding-block: 1rem 2rem;
   }
   
   footer p {
@@ -11,11 +11,81 @@ footer{
     line-height: 2rem;
   }
   
-  footer svg {
+  footer .logo svg {
     width: 218px;
     height: auto;
   }
 
+  .column-expanded {
+    display: none;
+  }
+
   .footer-container {
-      margin-left: 2rem;
+    margin-left: 2rem;
+  }
+
+  .social-links{
+    margin-top: 1rem;
+  }
+
+  @media (min-width: 1024px){
+    .footer-container {
+      margin: 0;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color: #fff;
+  }
+
+  .column-expanded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+  }
+
+  .column .social-links {
+    padding-block: 3.8rem;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+
+  .suport {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: flex-start;
+    padding-left: 3rem;
+  }
+
+  .suport h3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .sections {
+    padding-left: 3rem;
+  }
+
+  .column .dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-block: 1rem;
+  }
+
+  .column .dado svg path{
+    stroke: #fff;
+  }
+
+  .column a:hover{
+    color: rgb(203, 231, 255);
+  }
+
+  .footer-container .column + .column{
+    border-left: 0.5px solid #fff;
+  }
+
   }
