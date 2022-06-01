@@ -91,6 +91,10 @@
     #home-page .col-a .home-button {
       font-size: 20px;
       width: 15rem;
+<<<<<<< HEAD
+      height: 3.5rem;
+=======
+>>>>>>> 89f137946b7d58c29c39a4031ad872aa42585e9a
     }
 
     #home-page .col-a .home-button svg{
