@@ -58,7 +58,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'A B' 'A B';
         padding-inline: 8rem;
-        padding-block: 4rem;
+        padding-block: 6rem;
     }
 
     #contact-page .col-a {

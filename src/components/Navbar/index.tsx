@@ -7,7 +7,7 @@ import SocialLinks from "../SocialLinks";
 
 function Navbar() {
   return (
-    <nav>
+    <nav id="navigation">
       <div className="logo">
       <a onClick={removeMenu} href="#home-page">
       <NavLogo />
@@ -45,6 +45,23 @@ function Navbar() {
       <button onClick={removeMenu} className="close-menu">
         <CloseMenu />
       </button>
+
+<div className="nav-expanded">
+      <ul>
+        <li><a href="#home-page">Início</a></li>
+        <li><a href="#services-page">Serviços</a></li>
+        <li><a href="#qmsomos-page">Quem Somos?</a></li>
+        <li>
+          <div className="nav-button-expanded">
+            <a onClick={removeMenu} href="#contact-page">
+              Contate-nos
+            </a>
+        </div>
+        </li>
+      </ul>
+      </div>
+
+
     </nav>
   );
 }

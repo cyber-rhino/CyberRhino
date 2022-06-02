@@ -47,9 +47,8 @@ footer{
   }
 
   .column .social-links {
-    padding-block: 3.8rem;
+    padding-block: auto;
     justify-content: center;
-    margin-left: 3rem;
   }
 
   .suport {
@@ -57,16 +56,11 @@ footer{
     flex-direction: column;
     text-align: left;
     align-content: flex-start;
-    padding-left: 3rem;
   }
 
   .suport h3 {
     width: 100%;
     text-align: left;
-  }
-
-  .sections {
-    padding-left: 3rem;
   }
 
   .column .dados {
@@ -82,10 +76,6 @@ footer{
 
   .column a:hover{
     color: rgb(203, 231, 255);
-  }
-
-  .footer-container .column + .column{
-    border-left: 0.5px solid #fff;
   }
 
   }
