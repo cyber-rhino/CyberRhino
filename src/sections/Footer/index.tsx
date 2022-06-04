@@ -1,5 +1,5 @@
 import "./style.css";
-import { ReactComponent as Logo } from "../../assets/img/logo.svg";
+import { ReactComponent as Logo } from "../../assets/img/footer-logo.svg";
 import SocialLinks from "../../components/SocialLinks";
 
 function Footer() {
@@ -100,10 +100,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-
-        <div className="column social-links">
           <SocialLinks />
-        </div>
       </div>
     </footer>
   );
