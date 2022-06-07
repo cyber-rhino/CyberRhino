@@ -100,7 +100,10 @@ function Footer() {
             </li>
           </ul>
         </div>
+        <div className="column">
+          <h3>Social</h3>
           <SocialLinks />
+        </div>
       </div>
     </footer>
   );

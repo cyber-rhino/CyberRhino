@@ -58,7 +58,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'A B' 'A B';
         padding-inline: 8rem;
-        padding-block: 6rem;
+        padding-block: 9rem;
     }
 
     #contact-page .col-a {
@@ -69,7 +69,7 @@
     }
 
     #contact-page .col-b img{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
     

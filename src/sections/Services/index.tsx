@@ -3,6 +3,7 @@ import SoftImg from "../../assets/img/software.png";
 import DesiImg from "../../assets/img/design.png";
 import HardImg from "../../assets/img/hardware.png";
 import BuyButton from "../../components/BuyButton";
+import VilaImg from "../../assets/img/vila.png";
 import { ReactComponent as Confere } from "../../assets/img/confere.svg";
 
 function Services() {
@@ -86,6 +87,9 @@ function Services() {
             <BuyButton />
           </div>
         </div>
+      </div>
+      <div className="vila">
+        <img src={VilaImg} alt="" />
       </div>
     </section>
   );

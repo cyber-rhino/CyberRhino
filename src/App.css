@@ -31,7 +31,14 @@ button {
 #sections {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+}
+
+@media (min-width: 320px) and (max-width: 764px){
+  #sections {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
 
 section h1, section h2 , section h3 , section h4, section h5 , section h6{
