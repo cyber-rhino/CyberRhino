@@ -33,6 +33,28 @@ button {
   flex-direction: column;
 }
 
+#backToTopButton{
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  transition: 200ms;
+}
+
+#backToTopButton svg{
+  width: 3rem;
+  height: 3rem;
+}
+
+body.show #backToTopButton{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
 @media (min-width: 320px) and (max-width: 764px){
   #sections {
     display: flex;
