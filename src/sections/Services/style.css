@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.card{
+#services-page .card{
     display: flex;
     align-items: center;
     text-align: center;
@@ -19,7 +19,7 @@
     padding-block: 1.5rem;
 }
 
-.cards {
+#services-page .cards {
     display: flex;
     flex-direction: column;
     margin-block: 2rem;
@@ -39,18 +39,18 @@
     align-items: center;
 }
 
-.card .title {
+#services-page .card .title {
    display: flex;
    flex-direction: row;
    align-items: center;
    gap: 1rem;
 }
 
-.card p{
+#services-page .card p{
     width: 80%;
 }
 
-.card img{
+#services-page .card img{
     width: 80%;
     height: auto;
 }

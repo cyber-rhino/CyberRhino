@@ -1,0 +1,26 @@
+#nav-service {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3rem;
+    gap: 1rem;
+}
+
+#nav-service h3 {
+    visibility: hidden;
+}
+
+@media (min-width: 450px){
+    #nav-service h3 {
+        visibility: visible;
+        margin: 0;
+        font-weight: 800;
+        color: var(--primary-color);
+        padding-left: 1rem;
+    }
+    
+    #nav-service svg +  h3 {
+        border-left: 1px solid var(--primary-color);
+    }
+}
+

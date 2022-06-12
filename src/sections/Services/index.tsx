@@ -5,6 +5,7 @@ import HardImg from "../../assets/img/hardware.png";
 import BuyButton from "../../components/BuyButton";
 import VilaImg from "../../assets/img/vila.png";
 import { ReactComponent as Confere } from "../../assets/img/confere.svg";
+import { Link} from "react-router-dom";
 
 function Services() {
   return (
@@ -21,7 +22,7 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-              <BuyButton />
+              <Link to="/software"><BuyButton /></Link>
             </div>
           </div>
           <div className="col-b">
@@ -34,7 +35,7 @@ function Services() {
             </p>
           </div>
           <div className="small-button">
-            <BuyButton />
+          <Link to="/software"><BuyButton /></Link>
           </div>
         </div>
 

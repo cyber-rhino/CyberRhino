@@ -1,0 +1,213 @@
+#Page-Services {
+  margin-inline: auto;
+  text-align: center;
+}
+
+#Page-Services .top {
+  margin-top: 5rem;
+}
+
+#Page-Services .top h6 {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+#Page-Services h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 22px;
+}
+
+#Page-Services .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Page-Services .content p {
+  width: 80%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 80px;
+}
+
+#Page-Services .cards {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#Page-Services .card {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  gap: 0;
+}
+
+#Page-Services .card img {
+  width: 100%;
+  height: auto;
+}
+
+#Page-Services .tittle {
+  padding-block: 15px;
+  padding-inline: 60px;
+  background: var(--gradient-color);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Page-Services .tittle h3{
+  width: 350px;
+}
+
+#Page-Services .tittle p{
+  width: 100%;
+}
+
+#Page-Services .card h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+#Page-Services .tittle p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+}
+
+#Page-Services .gray-card {
+ width: 320px;
+  background: #f3f3f3;
+  border: 1px solid #C4C4C4;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+#Page-Services .gray-card p {
+  font-weight: 400;
+  width: 80%;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+#Page-Services .logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#Page-Services .logos img {
+  width: 35px;
+  height: auto;
+}
+
+#Page-Services .gray-card a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1522EC;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+#Page-Services button {
+  width: 250px;
+  height: 60px;
+  font-size: 14px;
+}
+
+#Page-Services button svg {
+  width: 40px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.back-main{
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.back-main svg{
+  width: 3rem;
+  height: 3rem;
+}
+
+@media (min-width: 768px) {
+  #Page-Services .content p{
+    width: 60%;
+  }
+
+  #Page-Services .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: row;
+  }
+
+  #Page-Services .tittle {
+    padding-inline: 70px;
+    padding-block: 20px;
+   }
+
+   #Page-Services .gray-card {
+    height: 827px;
+    width: 350px;
+  }
+
+  #Page-Services .gray-card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+   }
+}
+
+@media (min-width: 1024px) {
+  #Page-Services h1 {
+    font-size: 54px;
+  }
+
+  #Page-Services .content p{
+    margin-top: 20px;
+    width: 50%;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  #Page-Services .tittle {
+    padding-inline: 50px;
+    padding-block: 30px;
+   }
+ 
+   #Page-Services .tittle h3 {
+     font-size: 54px;
+   }
+
+   #Page-Services  .tittle p {
+    font-size: 24px;
+  }
+
+  #Page-Services  .gray-card {
+    height: 827px;
+    width: 400px;
+  }
+}
