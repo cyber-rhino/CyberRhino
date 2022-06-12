@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../styles.css";
 import Html5 from "../../assets/img/Html5.svg";
 import Css3 from "../../assets/img/Css3.svg";
 import Js1 from "../../assets/img/Js1.svg";
@@ -11,10 +11,12 @@ import designBackend from "../../assets/img/designBackend.svg";
 import BuyButton from "../../components/BuyButton";
 import { Link } from "react-router-dom";
 import NavServices from "../../components/NavServices";
+import ScrollToTop from "../../ScrollToTop";
 
 function SoftwarePage() {
   return (
     <>
+    <ScrollToTop>
     <body>
     <NavServices />
       <div id="Page-Services">
@@ -69,7 +71,7 @@ function SoftwarePage() {
               <button>
                 <BuyButton />
               </button>
-              <a href="#contact-page">Especifique seu serviço aqui.</a>
+              <a href="https://wa.me/5588987654321">Especifique seu serviço aqui.</a>
             </div>
           </div>
 
@@ -102,7 +104,7 @@ function SoftwarePage() {
               <button>
                 <BuyButton />
               </button>
-              <a href="#contact-page">Especifique seu serviço aqui.</a>
+              <a href="https://wa.me/5588987654321">Especifique seu serviço aqui.</a>
             </div>
           </div>
         </div>
@@ -144,6 +146,7 @@ function SoftwarePage() {
           </defs>
         </svg>
       </Link>
+      </ScrollToTop>
     </>
   );
 }

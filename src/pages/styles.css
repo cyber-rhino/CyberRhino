@@ -1,6 +1,9 @@
 #Page-Services {
-  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 #Page-Services .top {
@@ -9,17 +12,17 @@
 
 #Page-Services .top h6 {
   font-weight: 800;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 18px;
   color: var(--primary-color);
   text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 #Page-Services h1 {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 38px;
   line-height: 39px;
-  margin-bottom: 22px;
 }
 
 #Page-Services .content {
@@ -56,21 +59,12 @@
 }
 
 #Page-Services .tittle {
-  padding-block: 15px;
-  padding-inline: 60px;
+  padding-block: 10px;
   background: var(--gradient-color);
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#Page-Services .tittle h3{
-  width: 350px;
-}
-
-#Page-Services .tittle p{
-  width: 100%;
 }
 
 #Page-Services .card h3 {
@@ -79,13 +73,15 @@
   line-height: 48px;
   color: #fff;
   margin-bottom: 6px;
+  width: 350px;
 }
 
 #Page-Services .tittle p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   margin: 0;
+  width: 100%;
 }
 
 #Page-Services .gray-card {
@@ -158,14 +154,15 @@
 
   #Page-Services .cards {
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
     align-items: baseline;
     flex-direction: row;
   }
 
   #Page-Services .tittle {
-    padding-inline: 70px;
-    padding-block: 20px;
+    padding-inline: 10px;
+    padding-block: 10px;
    }
 
    #Page-Services .gray-card {

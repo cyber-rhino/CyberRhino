@@ -3,16 +3,16 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 3rem;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 #nav-service h3 {
-    visibility: hidden;
+    display: none;
 }
 
 @media (min-width: 450px){
     #nav-service h3 {
-        visibility: visible;
+        display: flex;
         margin: 0;
         font-weight: 800;
         color: var(--primary-color);
