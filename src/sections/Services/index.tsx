@@ -47,7 +47,7 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-              <BuyButton />
+            <Link to="/design"><BuyButton /></Link>
             </div>
           </div>
           <div className="col-b">
@@ -60,7 +60,7 @@ function Services() {
             </p>
           </div>
           <div className="small-button">
-            <BuyButton />
+          <Link to="/design"><BuyButton /></Link>
           </div>
         </div>
 
@@ -72,7 +72,7 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-              <BuyButton />
+            <Link to="/hardware"><BuyButton /></Link>
             </div>
           </div>
           <div className="col-b">
@@ -85,7 +85,7 @@ function Services() {
             </p>
           </div>
           <div className="small-button">
-            <BuyButton />
+          <Link to="/hardware"><BuyButton /></Link>
           </div>
         </div>
       </div>

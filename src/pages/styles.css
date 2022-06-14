@@ -22,7 +22,7 @@
 #Page-Services h1 {
   font-weight: 700;
   font-size: 38px;
-  line-height: 39px;
+  line-height: 45px;
 }
 
 #Page-Services .content {
@@ -166,19 +166,16 @@
    }
 
    #Page-Services .gray-card {
-    height: 827px;
-    width: 350px;
-  }
-
-  #Page-Services .gray-card {
-     display: flex;
+    display: flex;
      flex-direction: column;
      align-items: center;
-     justify-content: space-around;
-   }
+     justify-content: space-between;
+    min-height: 827px;
+    width: 350px;
+  }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1120px) {
   #Page-Services h1 {
     font-size: 54px;
   }
@@ -191,12 +188,13 @@
   }
 
   #Page-Services .tittle {
-    padding-inline: 50px;
+    width: 550px;
     padding-block: 30px;
    }
  
    #Page-Services .tittle h3 {
      font-size: 54px;
+     width: 100%;
    }
 
    #Page-Services  .tittle p {
@@ -205,6 +203,6 @@
 
   #Page-Services  .gray-card {
     height: 827px;
-    width: 400px;
+    width: 410px;
   }
 }
