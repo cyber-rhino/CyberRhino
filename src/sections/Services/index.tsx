@@ -5,7 +5,7 @@ import HardImg from "../../assets/img/hardware.png";
 import BuyButton from "../../components/BuyButton";
 import VilaImg from "../../assets/img/vila.png";
 import { ReactComponent as Confere } from "../../assets/img/confere.svg";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Services() {
   return (
@@ -22,20 +22,23 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-              <Link to="/software"><BuyButton /></Link>
+              <Link to="/software">
+                <BuyButton />
+              </Link>
             </div>
           </div>
           <div className="col-b">
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum,
+              Aqui você irá conferir opções para o seu eprendedorismo alavancar
+              e seguir as atuais tendêcias do mercado da área de técnologia,
+              estamos contigo para proporcionar o melhor serviço na área de
+              hardware que você precisar: <br/> - Manutenção <br/> - Formatação
             </p>
           </div>
           <div className="small-button">
-          <Link to="/software"><BuyButton /></Link>
+            <Link to="/software">
+              <BuyButton />
+            </Link>
           </div>
         </div>
 
@@ -47,20 +50,23 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-            <Link to="/design"><BuyButton /></Link>
+              <Link to="/design">
+                <BuyButton />
+              </Link>
             </div>
           </div>
           <div className="col-b">
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum,
+              Aqui você irá conferir opções para o seu eprendedorismo alavancar
+              e seguir as atuais tendêcias do mercado da área de técnologia,
+              estamos contigo para proporcionar o melhor serviço na área de
+              design que você precisar: <br/> - Web Design <br/> - Marketing digital
             </p>
           </div>
           <div className="small-button">
-          <Link to="/design"><BuyButton /></Link>
+            <Link to="/design">
+              <BuyButton />
+            </Link>
           </div>
         </div>
 
@@ -72,20 +78,23 @@ function Services() {
               <Confere />
             </div>
             <div className="expanded-button">
-            <Link to="/hardware"><BuyButton /></Link>
+              <Link to="/hardware">
+                <BuyButton />
+              </Link>
             </div>
           </div>
           <div className="col-b">
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum,
+              Aqui você irá conferir opções para o seu eprendedorismo alavancar
+              e seguir as atuais tendêcias do mercado da área de técnologia,
+              estamos contigo para proporcionar o melhor serviço na área de
+              software que você precisar: <br/> - Front-end <br/> - Back-end
             </p>
           </div>
           <div className="small-button">
-          <Link to="/hardware"><BuyButton /></Link>
+            <Link to="/hardware">
+              <BuyButton />
+            </Link>
           </div>
         </div>
       </div>
