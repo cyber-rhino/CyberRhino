@@ -3,7 +3,7 @@ import "./style.css";
 function SocialLinks() {
   return (
     <div className="social-links">
-      <a target="_blank" href="https://wa.me/5588987654321" rel="noreferrer">
+      <a target="_blank" href="https://wa.me/5588996327303" rel="noreferrer">
         <svg
           className="social-link"
           width="30"
