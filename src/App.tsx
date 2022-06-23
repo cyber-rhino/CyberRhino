@@ -1,7 +1,6 @@
 import "./App.css";
 import "./assets/styles/custom.scss";
 import "bootstrap/js/src/collapse.js";
-import Footer from "./sections/Footer";
 import BRoutes from "./Routes";
 
 function App() {
@@ -9,9 +8,6 @@ function App() {
     <> 
       <BRoutes />
       
-      <footer>
-        <Footer />
-      </footer>
     </>
   );
 }
