@@ -1,6 +1,10 @@
 # Telas
 ## Width:`375px`
 https://user-images.githubusercontent.com/63430363/175335728-c510fb26-ff09-45fb-85d5-98e42724637e.mp4
+## Width:`768px`
+https://user-images.githubusercontent.com/63430363/175338097-b08b6ab6-06d8-410c-8f3d-c6f921cf3bd0.mp4
+## Width:`1024px`
+https://user-images.githubusercontent.com/63430363/175338087-bd1308f6-fc5d-49af-ab12-36159d8e8969.mp4
 
 
 
