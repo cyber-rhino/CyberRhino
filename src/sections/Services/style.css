@@ -59,7 +59,7 @@
     display: none;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     #services-page .card {
         display: grid;
         width: 40rem;

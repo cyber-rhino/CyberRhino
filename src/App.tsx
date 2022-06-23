@@ -2,12 +2,15 @@ import "./App.css";
 import "./assets/styles/custom.scss";
 import "bootstrap/js/src/collapse.js";
 import BRoutes from "./Routes";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
     <> 
       <BRoutes />
-      
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
